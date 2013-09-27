@@ -7,7 +7,7 @@ class TreeHelper extends AppHelper
 	public $helpers = array('Html');
 
 	/**
-	 * print list of TreeBehavior-model as nested ul tag.
+	 * print list of all records of TreeBehavior-model as nested <ul> tag.
 	 *
 	 * @param array $list array generated with "TreeBehaviorModel::find('all', array('order' => 'lft ASC'))".
 	 * @param string $modelName model name.
